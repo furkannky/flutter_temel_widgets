@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
                   color: Colors.purple, fontWeight: FontWeight.bold))),
       home: Scaffold(
           appBar: AppBar(
-        title: Text('image ornekleri'),
+        title: const Text('image ornekleri'),
       ),
-      body: ImageOrnekleri(),
+      body: const ImageOrnekleri(),
       ),
     );
   }
